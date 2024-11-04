@@ -29,7 +29,7 @@ server.use(cookieParser());
 server.use(express.urlencoded({extended:true}));
 
 const corsOptions = {
-    origin:true,
+    origin:"https://job-portal-mern-zsxf.onrender.com",
     credentials:true
 }
 server.use(cors(corsOptions));
